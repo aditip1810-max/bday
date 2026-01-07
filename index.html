@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Jaanu 💖</title>
+
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:#ffd6e8;
+      font-family: "Poppins", system-ui, sans-serif;
+      overflow:hidden;
+    }
+
+    .hearts{
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Ctext x='10' y='50' font-size='20'%3E💗%3C/text%3E%3Ctext x='40' y='30' font-size='16'%3E💖%3C/text%3E%3Ctext x='55' y='60' font-size='18'%3E💕%3C/text%3E%3C/svg%3E");
+      background-repeat:repeat;
+      animation: move 18s linear infinite;
+    }
+
+    @keyframes move{
+      from{ background-position:0 0; }
+      to{ background-position:-200px -200px; }
+    }
+
+    .card{
+      position:relative;
+      background:rgba(255,255,255,0.85);
+      padding:30px 26px;
+      border-radius:24px;
+      width:min(420px,90vw);
+      text-align:center;
+      box-shadow:0 20px 40px rgba(255,105,180,.35);
+      z-index:1;
+    }
+
+    .photo{
+      width:160px;
+      height:160px;
+      border-radius:20px;
+      object-fit:cover;
+      border:5px solid #ff8fc1;
+      box-shadow:0 10px 25px rgba(255,90,160,.4);
+      margin-bottom:18px;
+    }
+
+    h1{
+      margin:8px 0;
+      color:#5a0045;
+      font-size:28px;
+    }
+
+    p{
+      color:#5a0045;
+      font-size:17px;
+      line-height:1.6;
+    }
+
+    .emoji-line{
+      margin:14px 0;
+      font-size:22px;
+    }
+
+    .footer{
+      margin-top:16px;
+      font-weight:600;
+      color:#ff4f9a;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hearts"></div>
+
+  <div class="card">
+    <!-- FIXED IMAGE LINE -->
+    <img src="us.JPEG" alt="Us 💕" class="photo">
+
+    <h1>My Jaanu 💗</h1>
+
+    <div class="emoji-line">🥺💞🫶✨</div>
+
+    <p>
+      You are not just important, you are my safe place 🥹💖  
+      Every smile, every laugh, every little moment with you means
+      more than words can ever explain 💕  
+      You brings happiness, comfort, and peace into my life 🌸💫
+      I will love you forever jaanu. Happy birthday baby.
+    </p>
+
+    <div class="emoji-line">💖🥰🤍💗</div>
+
+    <p>
+      No matter what happens, I will always have a special place
+      in my heart 🫶💝  
+      Forever grateful for you🥹✨
+    </p>
+
+    <div class="footer">Always & forever — for Jaanu 💕</div>
+  </div>
+</body>
+</html>
